@@ -1,15 +1,21 @@
 import Head from 'next/head';
+import RoomCard from '../components/RoomCard';
+import RoomCard2 from '../components/RoomCard2';
+import Image from 'next/image';
+import mountain from '../public/images/mountain.jpg';
 
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen py-2">
-			<Head>
-				<title>Airbnb</title>
-				<link rel="icon" href="/favicon.ico" />
-			</Head>
-			<div>
-				<h1>Hello</h1>
-			</div>
-		</div>
+		<>
+			<header></header>
+			<main>
+				<div className="items-center justify-center h-screen flex">
+					Main Content
+				</div>
+				<div className="items-center justify-center h-screen flex">
+					Main Content
+				</div>
+			</main>
+		</>
 	);
 }

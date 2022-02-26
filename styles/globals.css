@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+	@apply text-7xl font-bold mb-12;
+}
+h2 {
+	@apply text-5xl mb-8 font-bold;
+}
+
+p {
+	@apply text-gray-500 text-2xl;
+}
+
+.link {
+	@apply ml-8 font-bold hover:underline decoration-blue-500;
+}
+
+.intent {
+	@apply block items-center p-4 rounded-lg w-[300px] md:w-[400px] mx-auto border-2 border-gray-200;
+}
