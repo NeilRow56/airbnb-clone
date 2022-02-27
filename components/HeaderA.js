@@ -18,8 +18,8 @@ function Header() {
 
 	return (
 		<>
-			<div className="shadow-md  w-full fixed top-0 left-0">
-				<div className="md:flex items-center justify-between bg-[#cc0000] py-4 md:px-10 px-7">
+			<div className="shadow-md  w-full fixed top-0 left-0 ">
+				<div className="md:flex h-10 md:h-12 items-center justify-between z-50 bg-[#cc0000] py-2 lg:py-4 md:px-10 px-7  ">
 					<div className="font-bold text-2x1 cursor-pointer text-white hover:text-blue-600 flex items-center font-poppins  ">
 						<span className="text-3x1 text-blue-600 mr-1 ">
 							<BlurCircularIcon />
@@ -54,7 +54,7 @@ function Header() {
 			</div>
 			<div
 				onClick={() => setOpen(!open)}
-				className="text-3x1 z-10  fixed bottom-3 right-4 mt-2 cursor-pointer md:hidden bg-gray-500 flex h-10 w-10 justify-center rounded-full items-center"
+				className="text-3x1 z-10  fixed bottom-2 right-4 mt-2 cursor-pointer md:hidden bg-gray-500 flex h-7 w-7 justify-center rounded-full items-center"
 			>
 				<span className={open ? 'hidden' : ''}>
 					{<MenuIcon className="text-white  " />}
