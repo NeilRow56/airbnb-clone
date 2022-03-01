@@ -20,7 +20,7 @@ function Header() {
 	return (
 		<>
 			{' '}
-			<div className="flex w-full shadow-md ">
+			<div className="flex w-full shadow-md sticky top-0 left-0">
 				<div className="container mx-auto    ">
 					<div className="md:flex h-10 md:h-12 items-center justify-between z-50 bg-white py-2 lg:py-4 md:px-10 px-7  ">
 						<div className="font-bold  text-2x1 cursor-pointer text-[#cc0000] hover:text-gray-500 flex  items-center font-poppins  ">
@@ -37,7 +37,7 @@ function Header() {
 						</div>
 
 						<ul
-							className={`md:flex md:items-center  pt-[42px] md:pt-0 absolute md:static bg-white  md:z-auto z-[-1] left-0 w-1/3 bg-opacity-60 md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+							className={`md:flex md:items-center  pt-[42px] md:pt-0 absolute md:static bg-white  md:z-auto z-[-1] left-0 w-1/3 bg-opacity-95 md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
 								open ? 'top-10 ' : 'top-[-470px]'
 							}`}
 						>
@@ -66,7 +66,7 @@ function Header() {
 				</div>
 				<div
 					onClick={() => setOpen(!open)}
-					className="text-3x1 z-10  fixed bottom-2 right-4 mt-2 cursor-pointer md:hidden bg-gray-500 flex h-7 w-7 justify-center rounded-full items-center"
+					className="text-3x1 z-10   bottom-2 right-4 mt-2 cursor-pointer md:hidden bg-[#cc0000] mr-1 flex h-7 w-7 justify-center rounded-full items-center"
 				>
 					<span className={open ? 'hidden' : ''}>
 						{<MenuIcon className="text-white  " />}
