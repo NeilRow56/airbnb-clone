@@ -14,7 +14,7 @@ function CardAB() {
 				layout="responsive"
 				className="rounded-tl-lg rounded-tr-lg"
 			/>
-			<div className="mt-3">
+			<div className=" flex text-center mt-3">
 				<h4 className="">
 					<a href="">
 						Charming Studio less than 10 Miles to Wells Beaches!

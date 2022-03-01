@@ -12,7 +12,7 @@ h3 {
 	@apply text-3xl mb-8 font-bold;
 }
 h4 {
-	@apply text-2xl font-thin;
+	@apply text-[20px];
 }
 
 p {

@@ -12,7 +12,7 @@ function Header() {
 		{ name: 'Home', link: '/' },
 		{ name: 'Services', link: '/services' },
 		{ name: 'About', link: '/about' },
-		{ name: 'Login', link: '/login' },
+
 		{ name: 'Logout', link: '/logout' },
 	];
 	let [open, setOpen] = useState(false);
@@ -37,7 +37,7 @@ function Header() {
 						</div>
 
 						<ul
-							className={`md:flex md:items-center  pt-[42px] md:pt-0 absolute md:static bg-white  md:z-auto z-[-1] left-0 w-1/3 bg-opacity-95 md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
+							className={`md:flex md:items-center  pt-[5px] pb-2 md:pt-0 absolute md:static bg-white  md:z-auto z-[-1] left-0 w-1/3 bg-opacity-95 md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
 								open ? 'top-10 ' : 'top-[-470px]'
 							}`}
 						>
